@@ -1,0 +1,2 @@
+1. The bug is that its reading it in as strings. When added, they concatenate the 2 numbers as a string. For example if the first number is 1 and the second number is 2, it will read it in as "1" and "2". Line 11 will add the two "1" + "2" and becomes "12".
+2. See fix.png. I would fix this by converting the numbers (currently string) to number.
